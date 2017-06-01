@@ -1,0 +1,12 @@
+.contenido-carrusel {
+    display: none;
+}
+
+.contenido-carrusel.activo {
+    display: block;
+}
+
+.contenido-carrusel>img{
+    width: 30%;
+    margin-left: 30%;
+}

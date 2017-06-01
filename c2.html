@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carrusel con jQuery</title>
+    <link rel="stylesheet" href="css/c2.css" />
+
+
+</head>
+
+<body class="teal darken-4">
+    <header class="white-text center">
+        <h1>GATOS</h1>
+    </header>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="carrusel col s8 push-s2">
+                <div data-imagen="0" class="contenido-carrusel activo">
+                    <img src="img/gato1.jpg" alt="Imagen 1" />
+                </div>
+                <div data-imagen="1" class="contenido-carrusel ">
+                    <img src="img/gato2.jpg" alt="Imagen 2" />
+                </div>
+                <div data-imagen="2" class="contenido-carrusel ">
+                    <img src="img/gato3.jpg" alt="Imagen 3" />
+                </div>
+                <div data-imagen="3" class="contenido-carrusel">
+                    <img src="img/gato4.jpg" alt="Imagen 4" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="controles col">
+                <a href="#" class="anterior">&#10094;</a>
+                <button type="button" data-target="0" class="control"></button>
+                <button type="button" data-target="1" class="control"></button>
+                <button type="button" data-target="2" class="control"></button>
+                <button type="button" data-target="3" class="control"></button>
+                <a href="#" class="siguiente">&#10095;</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+
+</html>
+
+ 
